@@ -1,14 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+import Game from '../src/Components/Tic-Tac-Toe/Game';
 
-function App() {
-  return (
-    <div className="App">
-     <h1>
-      tic-tac-toe project setup
-     </h1>
-    </div>
-  );
-}
-
-export default App;
+export default function App() {
+    return (
+      <Game/>
+    );
+  }
