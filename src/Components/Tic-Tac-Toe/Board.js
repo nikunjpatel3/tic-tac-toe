@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './Board.css';
 import Square from './Square';
 

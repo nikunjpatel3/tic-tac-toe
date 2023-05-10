@@ -1,12 +1,13 @@
 nav {
-	background: #fff;
+	background: #3f51b5;
 	padding: 0 20px;
 	width: 100%;
 	height: 80px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
 .logo h1 {
-	color: #0097e6;
+	color: #fff;
     margin-top: 16px;
 }
 
@@ -28,17 +29,17 @@ nav .nav-items {
 	margin-left: 20px;
 	font-size: 18px;
 	font-weight: 600;
-	color: #000;
+	color: #fff;
 }
 
 .nav-items ul li a {
-	color: #000;
+	color: #fff;
 }
 
 .nav-items ul li a:hover {
-	color: #00a8ff;
+	color: #F7C04A;
 }
 
 .nav-items ul li a.active {
-	color: #00a8ff;
+	color: #F7C04A;
 }
